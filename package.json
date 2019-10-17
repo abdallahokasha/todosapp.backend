@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/abdallahokasha/Todosapp-Backend/issues"
   },
-  "homepage": "https://github.com/abdallahokasha/Todosapp-Backend#readme"
+  "homepage": "https://github.com/abdallahokasha/Todosapp-Backend#readme",
+  "dependencies": {
+    "pg": "^7.12.1",
+    "sequelize": "^5.19.8"
+  }
 }
