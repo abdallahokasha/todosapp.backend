@@ -1,27 +1,23 @@
 module.exports = {
   development: {
-    username: "todosapp-db-user",
+    username: "postgres",
     password: "123456",
-    database: "todoapp-db",
+    database: "todosapp-db",
     host: "127.0.0.1",
-    dialect: "postgres",
-    operatorsAliases: false,
-    port: 5432
+    dialect: "postgres"
   },
   test: {
     username: "root",
     password: null,
     database: "database_test",
     host: "127.0.0.1",
-    dialect: "mysql",
-    operatorsAliases: false
+    dialect: "mysql"
   },
   production: {
     username: "root",
     password: null,
     database: "database_production",
     host: "127.0.0.1",
-    dialect: "mysql",
-    operatorsAliases: false
+    dialect: "mysql"
   }
 };
